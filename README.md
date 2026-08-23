@@ -1,4 +1,3 @@
-```markdown
 # logical-pipeline
 
 A lightweight, isolated Python execution engine that evaluates logical expressions (AND / OR / NOT) against a set of payload scripts. It verifies script integrity via SHA-256 directory hashes stored in a database, then runs the selected scripts in an isolated environment and returns standardized integer exit codes.
