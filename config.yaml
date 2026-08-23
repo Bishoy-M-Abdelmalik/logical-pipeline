@@ -1,0 +1,9 @@
+# Sample configuration for logical-pipeline
+# Replace placeholder values with your own environment settings.
+# Never commit real credentials or production connection strings.
+
+db_connect:
+  host: "localhost"
+  database: "script_registry"
+  driver: "ODBC Driver 17 for SQL Server"
+  sql_statement: "SELECT script_name, hash_value FROM script_hashes"
